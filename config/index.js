@@ -10,7 +10,7 @@ export const config = {
     APP_SECRET: "437634d6b5f88fa0a64aaf565e981646",
 
     // 模板消息id
-    TEMPLATE_ID: "	ALHiqONeAz4ZmhfeCFxgwPr2QgRbUUzZkUhdQhHVp3o",
+    TEMPLATE_ID: "ALHiqONeAz4ZmhfeCFxgwPr2QgRbUUzZkUhdQhHVp3o",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
     CALLBACK_TEMPLATE_ID: "",
@@ -82,44 +82,7 @@ export const config = {
       // ... 
     ],
 
-    /** 插槽 */
 
-    /** 你可以在这里写超多的你想显示的内容了！
-      * keyword是指暴露给测试号的模板字段，填什么就暴露什么, 请注意不要和README的出参表中的字段重复。
-      * 比如：keyword: "lover_prattle" ，在测试号中就是 {{ lover_prattle.DATA }} 
-      * */
-    SLOT_LIST: [
-      // 这样配置的话，就会每次发送这句话
-      {"keyword": "encourage_oneself", contents: "你主要的问题在于读书太少而想得太多"},
-      // 这样配置的话，就会每次随机选一句话发送
-      {"keyword": "lover_prattle", contents: [
-        "因为太喜欢你，所以看谁都像是情敌。",
-        "申请成为你爱里的永久居民。",
-        "你很傻，你很笨，可我还是很羡慕你，因为你有我",
-        "遇见你，就好像捡到了100斤的运气",
-      ]},
-    ],
-
-    /** 每日一言 */
-
-    // 好文节选的内容类型
-    // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
-
-
-    }
-
-// {{date.DATA}}  
-// 城市：{{city.DATA}}  
-// 天气：{{weather.DATA}}  
-// 最低气温: {{min_temperature.DATA}}  
-// 最高气温: {{max_temperature.DATA}}  
-// 今天是我们恋爱的第{{love_day.DATA}}天
-// 今天是我们结婚的第{{marry_day.DATA}}天
-// {{birthday_message.DATA}}
-
-// {{note_en.DATA}}  
-// {{note_ch.DATA}}
 
 // 共推送 {{need_post_num.DATA}}  人
 // 成功: {{success_post_num.DATA}} | 失败: {{fail_post_num.DATA}}
