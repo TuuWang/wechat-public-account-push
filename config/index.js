@@ -4,8 +4,7 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "
-wxbea3f949146f9d4d",
+    APP_ID: "wxbea3f949146f9d4d",
 
     // 公众号APP_SECRET
     APP_SECRET: "437634d6b5f88fa0a64aaf565e981646",
